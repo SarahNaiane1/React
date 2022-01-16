@@ -1,0 +1,68 @@
+ body {
+  margin: 0;
+  font-family:   sans-serif;
+background-color: black;
+color: ewsd;
+} 
+.container{
+  max-width: 500px;
+  margin: 30px auto;
+  overflow: auto;
+  min-height: 300px;
+  border: 5px solid DodgerBlue;
+  padding: 30px;
+  border-radius: 10px;
+  align-items: "center";
+   justify-content: "center";
+   
+
+}
+ p{
+  color: dodgerblue;
+  padding: "10px";
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+
+}
+label{
+  color:white
+}
+input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid dodgerblue;
+  border-radius: 4px;
+
+}
+input:hover{
+  background-color: rgba(255, 255, 255, 0.897);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+}
+.enviar{
+  padding-top: 30px;
+}
+
+input[type=submit] {
+  background-color: dodgerblue;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.termos {
+  display:block;
+  max-width: 800px;
+  color:black;
+  
+}
+input[type=checkbox]{
+  height: 2em;
+  width: 2em;
+  vertical-align: middle;
+}
